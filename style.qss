@@ -1,0 +1,97 @@
+QWidget {
+    background-color: #f0f2f5;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+QFrame#MainCard {
+    background-color: white;
+    border-radius: 12px;
+    padding: 24px;
+    border: 1px solid #ddd;
+}
+
+QLineEdit {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+QPushButton {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    opacity: 0.9;
+}
+
+QPushButton#AddTask {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+QPushButton#AddTask:hover {
+    background-color: #218838;
+}
+
+QPushButton#DeleteTask {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+QPushButton#DeleteTask:hover {
+    background-color: #c82333;
+}
+
+QPushButton#EditTask {
+    background-color: #ffc107;
+    color: #212529;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+QPushButton#EditTask:hover {
+    background-color: #e0a800;
+}
+
+QPushButton#MarkAllCompleted {
+    background-color: #6495ED;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+QPushButton#MarkAllCompleted:hover {
+    background-color: #4169E1;
+}
+
+QPushButton#MarkAllIncomplete {
+    background-color: MediumPurple;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+QPushButton#MarkAllIncomplete:hover {
+    background-color: #663399;
+}
+
+QListWidget {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+}
